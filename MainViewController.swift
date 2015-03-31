@@ -10,9 +10,6 @@ import UIKit
 
 class MainViewController: UIViewController {
 
-    override self.view
-    
-    
     override func loadView() {
         self.view = MainView()
     
