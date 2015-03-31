@@ -9,7 +9,7 @@ protocol MPCManagerDelegate {
     func lostPeer()
     
     func invitationWasReceived(fromPeer: String)
-    
+    // teste hahaha
 }
 
 class MPCManager: NSObject, MCSessionDelegate, MCNearbyServiceBrowserDelegate, MCNearbyServiceAdvertiserDelegate {
